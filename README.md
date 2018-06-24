@@ -25,6 +25,7 @@ __Features:__
 __Basic Setup Instructions__
 - Interconnect the configured pin from both the microcontrollers.
 - Use a PULLDOWN resister.
+- Use a common ground.
 - paste the _SLIC_ folder in the _library_ folder of arduino.
 
 __Supported Hardware__
