@@ -20,7 +20,7 @@ __Features:__
 - Multiple Nodes
   - The single wire can be used to interface multiple devices like an I2C.
   - ( if current output is not satisfactory just use an external signal amplifier)
-  - __The current library version doesent have this as an inbuilt function__
+  - __The current library version doesn't have this as an inbuilt function__
 
 __Basic Setup Instructions__
 - Interconnect the configured pin from both the microcontrollers.
