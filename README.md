@@ -1,2 +1,3 @@
 # SLIC
-Single Line (wire) hardware Independent half duplex Communication Protocol 
+__Single Line Independent Communication Protocol__
+  Th
