@@ -1,10 +1,14 @@
 # SLIC (Single Line Independent Communication Protocol)
 
+__Updates Comming Soon__
+- A lite version of the library for low program memory systems.
+- A pro  version of the library for faster transmission rates.
+
 __Reasons to build:__
 - unavailability of single wire based communication for general microcontrollers.
 - unavailability of purely software based communication protocols. i.e, with just GPIO pins and no dedicated hardware.
 
-SLIC is a communication protocol.
+_SLIC is a communication protocol._
 
 __Features:__
 - Single line/wire
@@ -21,6 +25,7 @@ __Features:__
 __Basic Setup Instructions__
 - Interconnect the configured pin from both the microcontrollers.
 - Use a PULLDOWN resister.
+- paste the _SLIC_ folder in the _library_ folder of arduino.
 
 __Supported Hardware__
 - The library is for Arduino IDE, hence any device which can be programed using the IDE is theoratically functional.
