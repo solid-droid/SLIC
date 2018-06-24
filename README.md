@@ -18,7 +18,7 @@ __Features:__
 - Half duplex
   - The same GPIO pin is used for transmission and reception.
 - Multiple Nodes
-  - The single wire can be used to interface multiple devices like an I2C.
+  - The single wire can be used to interface multiple devices like the I2C.
   - ( if current output is not satisfactory just use an external signal amplifier)
   - __The current library version doesn't have this as an inbuilt function__
 
