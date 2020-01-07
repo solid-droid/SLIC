@@ -6,7 +6,7 @@ slic::slic(int p)
 //master
 void slic::write_dat(char s[], int size_of)
 {
-    pinMode(8, OUTPUT);
+    pinMode(pin, OUTPUT);
     bool dat[8];
     int ascii;
     ascii = size_of;
@@ -51,7 +51,7 @@ void slic::data(bool val)
 
 void slic::enable_listen()
 {
-    pinMode(8, OUTPUT);
+    pinMode(pin, OUTPUT);
     digitalWrite(pin, HIGH);
     delay(2);
     data(1);
@@ -68,7 +68,7 @@ void slic::enable_listen()
 
 void slic::sync_out()
 {
-    pinMode(8, OUTPUT);
+    pinMode(pin, OUTPUT);
     digitalWrite(pin, HIGH);
     delay(2);
     data(1);
@@ -141,7 +141,7 @@ void slic::read_if_available()
 
 void slic::read_dat()
 {
-    pinMode(8, INPUT);
+    pinMode(pin, INPUT);
     bool rep = LOW;
     while (true) {
         rd = digitalRead(pin);
