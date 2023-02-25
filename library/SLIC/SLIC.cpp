@@ -124,7 +124,7 @@ void slic::print_dat()
 
 void slic::read_if_available()
 {
-    pinMode(8, INPUT);
+    pinMode(pin, INPUT);
     rd = digitalRead(pin);
     if (rd == HIGH) {
         delay(1);
